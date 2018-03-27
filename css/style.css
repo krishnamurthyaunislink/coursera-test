@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+@media only screen and (min-width:992px) {
+    section {
+        width: 99%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    section div {
+        width: 31%;
+        position: relative;
+        float: left;
+        margin: 0 1.1%;
+    }
+    section div.border {
+        border: 3px solid gray;
+    }
+    section div span {
+        position: absolute;
+        right: 0;
+        padding: 0% 5%;
+        border: 3px solid gray;
+        border-top: 0;
+        border-right: 0;
+    }
+    section div.chicken span {
+        background-color: pink;
+    }
+    section div.beef span {
+        color: white;
+        background-color: #dc3628;
+    }
+    section div.sushi span {
+        background-color: yellow;
+    }
+    section div p {
+        margin: 6% 2%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    section {
+        width: 99%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    section div {
+        position: relative;
+        float: left;
+        margin: 0 1.1%;
+    }
+    section div.chicken {
+        width: 47%;
+    }
+    section div.beef {
+        width: 47%;
+    }
+    section div.sushi {
+        width: 96.2%;
+        margin-top: 2%;
+    }
+    section div.border {
+        border: 3px solid gray;
+    }
+    section div span {
+        position: absolute;
+        right: 0;
+        padding: 0% 5%;
+        border: 3px solid gray;
+        border-top: 0;
+        border-right: 0;
+    }
+    section div.chicken span {
+        background-color: pink;
+    }
+    section div.beef span {
+        color: white;
+        background-color: #dc3628;
+    }
+    section div.sushi span {
+        background-color: yellow;
+    }
+    section div p {
+        margin: 6% 2%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    section {
+        width: 99%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    section div {
+        position: relative;
+        float: left;
+        margin: 0 1.1%;
+        width: 96.2%;
+        margin-bottom: 2%;
+    }
+    section div.border {
+        border: 3px solid gray;
+    }
+    section div span {
+        position: absolute;
+        right: 0;
+        padding: 0% 5%;
+        border: 3px solid gray;
+        border-top: 0;
+        border-right: 0;
+    }
+    section div.chicken span {
+        background-color: pink;
+    }
+    section div.beef span {
+        color: white;
+        background-color: #dc3628;
+    }
+    section div.sushi span {
+        background-color: yellow;
+    }
+    section div p {
+        margin: 6% 2%;
+    }
+}
